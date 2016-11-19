@@ -1,0 +1,72 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background: #222;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    position: absolute;
+    height: 100px;
+}
+
+.name {
+    text-align: right;
+}
+
+p {
+    font-size: 1.7em;
+    padding: 1em;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects p {
+    font-size: 1em;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 550px){
+    .logo{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .name{
+        vertical-align: bottom;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 551px){
+    .logo{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .col-md-6{
+        position: static;
+        width: 50%;
+    }
+}
