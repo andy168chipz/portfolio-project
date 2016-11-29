@@ -12,22 +12,23 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 logo">
-                    <picture>
-                      <img class="logo" src="img-dest/Logo.png" alt="The Logo">
-                    </picture>
-                </div>
-                <div class="col-md-6 name">
-                    <h1>ANDY CHOU</h1>
-                    <h4>A portfolio</h4>
-                </div>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 logo">
+                <picture>
+                    <img class="logo" src="img-dest/Logo.png" alt="The Logo">
+                </picture>
             </div>
+            <div class="col-md-6 name">
+                <h1>ANDY CHOU</h1>
+                <h4>A portfolio</h4>
+            </div>
+        </div>
     </header>
     <div class="container">
-        <hr>
+        <div class="row">
+            <hr class='col-md-12'>
+        </div>
         <div class="row">
             <div class="col-md-4 intro">
                 <p>
@@ -41,48 +42,52 @@
                 </picture>
             </div>
         </div>
+        <div class="row">
+            <hr class='col-md-12'>
+        </div>
+        <main class="projects">
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+            <div class="row">
+                <article class="col-md-4">
+                    <h2>Movie Trailer!</h2>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="img-dest/bar-1x.jpg 1x">
+                        <img src="img-dest/bar-small.jpg" alt="Picture of drinks and a live band">
+                    </picture>
+                    <p>
+                        <a href="#">Project Link</a>
+                    </p>
+                </article>
+                <article class="col-md-4">
+                    <h2>Responsive Site!</h2>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="img-dest/moon-1x.jpg 1x">
+                        <img src="img-dest/moon-small.jpg" alt="Picture of a moon">
+                    </picture>
+                    <p>
+                        <a href="#">Project Link</a>
+                    </p>
+                </article>
+                <article class="col-md-4">
+                    <h2>Picture Sites</h2>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="img-dest/coast-1x.jpg 1x">
+                        <img src="img-dest/coast-small.jpg" alt="Picture of sunset">
+                    </picture>
+                    <p>
+                        <a href="#">Project Link</a>
+                    </p>
+                </article>
+            </div>
+        </main>
     </div>
-    <hr>
-    <section class="container projects">
-        <div class="row">
-            <div class="col-md-12"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Movie Trailer!</h2>
-                <picture>
-                    <source media="(min-width: 750px)" srcset="img-dest/bar-1x.jpg 1x">
-                    <img src="img-dest/bar-small.jpg" alt="Picture of drinks and a live band">
-                </picture>
-                <p>
-                    <a href="#">Project Link</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h2>Responsive Site!</h2>
-                <picture>
-                    <source media="(min-width: 750px)" srcset="img-dest/moon-1x.jpg 1x">
-                    <img src="img-dest/moon-small.jpg" alt="Picture of a moon">
-                </picture>
-                <p>
-                    <a href="#">Project Link</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h2>Picture Sites</h2>
-                <picture>
-                    <source media="(min-width: 750px)" srcset="img-dest/coast-1x.jpg 1x">
-                    <img src="img-dest/coast-small.jpg" alt="Picture of sunset">
-                </picture>
-                <p>
-                    <a href="#">Project Link</a>
-                </p>
-            </div>
-        </div>
-    </section>
-    <hr>
+    <div class="row">
+        <hr class='col-md-12'>
+    </div>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row footer">
                 <div class="col-md-4">
                     <h4>Contact me!</h4>
